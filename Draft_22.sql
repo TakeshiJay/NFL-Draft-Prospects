@@ -1,3 +1,4 @@
+-- all prospects will be defined by their rank value, last name, first name, etc. 
 CREATE TABLE Prospect (
     Player_Rank_Value int,
     Player_Last_Name varchar(50),
@@ -8,9 +9,13 @@ CREATE TABLE Prospect (
     Player_University varchar(50)
 );
 
+-- accessories will represent what the player wears as far as gear
+-- int operators for Skin_tone will represent as 1,2,3 for light, medium, dark tones
+-- arm_sleeve_left will represent as a boolean value true(1) and false(2) if 3 or 4 is selected implies they have turf tape
 CREATE TABLE Accessories (
     Player_Last_Name varchar(50),
     Player_First_Name varchar(50),
+    Skin_tone int,
     Helmet_Type varchar(50),
     Facemask_Type varchar(50),
     Arm_Sleeve_Left int,
