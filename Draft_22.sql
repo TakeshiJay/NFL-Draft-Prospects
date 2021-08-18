@@ -11,11 +11,13 @@ CREATE TABLE Prospect (
 
 -- accessories will represent what the player wears as far as gear
 -- int operators for Skin_tone will represent as 1,2,3 for light, medium, dark tones
--- arm_sleeve_left will represent as a boolean value true(1) and false(2) if 3 or 4 is selected implies they have turf tape
+-- int operation for long_hair will represent as a boolean value 0 for true and 1 for false
+-- arm_sleeve_left will represent as a boolean value true(0) and false(1) if 3 or 4 is selected implies they have turf tape
 CREATE TABLE Accessories (
     Player_Last_Name varchar(50),
     Player_First_Name varchar(50),
     Skin_tone int,
+    long_hair int,
     Helmet_Type varchar(50),
     Facemask_Type varchar(50),
     Arm_Sleeve_Left int,
