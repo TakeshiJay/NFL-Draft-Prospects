@@ -26,7 +26,8 @@ CREATE TABLE Accessories (
 );
 
 INSERT INTO Prospect 
-    VALUES (
+    ( Player_Rank_Value, Player_Last_Name, Player_First_Name, Player_Position, Player_Height, Player_Weight, Player_University ) 
+    VALUES
         (1, 'Uiagalelei', 'D.J', 'QB', '6''4"', '249', 'Clemson'),
         (2, 'Sewell', 'Noah', 'OLB', '6''3"', '250', 'Oregon'),
         (3, 'Young', 'Bryce', 'QB', '6''0"', '194', 'Alabama'),
@@ -56,6 +57,6 @@ INSERT INTO Prospect
         (27, 'Quick', 'Pierce', 'OT', '6''5"', '306', 'Alabama'),
         (28, 'Boutte', 'Kayshon', 'WR', '6''0"', '190', 'LSU'),
         (29, 'Miller', 'Harry', 'G', '6''4"', '315', 'Ohio State'),
-        (30, 'Milton', 'Kendall', 'RB', '6''2"', '220', 'Georgia'));
+        (30, 'Milton', 'Kendall', 'RB', '6''2"', '220', 'Georgia');
         
     
